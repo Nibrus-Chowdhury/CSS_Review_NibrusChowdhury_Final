@@ -1,3 +1,4 @@
+<!--UPDATE-->
 <!DOCTYPE html>
 <html>
 <!-- metadata-->
@@ -26,20 +27,30 @@
 	<h1>The translate() Method</h1>
 <p>The translate() method moves an element from its current position:</p>
 
-<div>
+<div class="box trans">
 This div element is moved 50 pixels to the right, and 100 pixels down from its current position.
+</div>
+<div class="box transX">
+  This div element is moved 50 pixels to the right.
+</div>
+<div class="box transY">
+  This div element is moved 100 pixels down from its current position.
 </div>
 <hr>
   <h1>The rotate() Method</h1>
 
 <p>The rotate() method rotates an element clockwise or counter-clockwise.</p>
 
-<div>
-This a normal div element.
+<div class="box rotate">
+This element is rotated X and Y.
+</div>
+  
+<div class="box rotateX">
+This div element is rotated clockwise 20 degrees.
 </div>
 
-<div id="myDiv">
-This div element is rotated clockwise 20 degrees.
+<div class="box rotateY">
+  This div element is rotated counter-clockwise 20 degrees.
 </div>
 
   <hr>
@@ -47,7 +58,7 @@ This div element is rotated clockwise 20 degrees.
 
 <p>The scale() method increases or decreases the size of an element.</p>
 
-<div>
+<div class="box scale">
 This div element is two times of its original width, and three times of its original height.
 </div>
 
@@ -56,7 +67,7 @@ This div element is two times of its original width, and three times of its orig
 
 <p>The scaleX() method increases or decreases the width of an element.</p>
 
-<div>
+<div class="box scaleX">
 This div element is two times of its original width.
 </div>
 <hr>
@@ -64,7 +75,7 @@ This div element is two times of its original width.
 
 <p>The scaleY() method increases or decreases the height of an element.</p>
 
-<div>
+<div class="box scaleY">
 This div element is three times of its original height.
 </div>
 
@@ -73,12 +84,16 @@ This div element is three times of its original height.
 
 <p>The skewX() method skews an element along the X-axis by the given angle.</p>
 
-<div>
-This a normal div element.
+<div class="box skew">
+  This div element is skewed 50 degrees along the X-axis and Y-axis.
 </div>
 
-<div id="myDiv">
+<div class="box skewX">
 This div element is skewed 20 degrees along the X-axis.
+</div>
+
+<div class="box skewY">
+This div element is skewed 40 degrees along the Y-axis.
 </div>
 
   <hr>
@@ -86,20 +101,23 @@ This div element is skewed 20 degrees along the X-axis.
 
 <p>The matrix() method combines all the 2D transform methods into one.</p>
 
-<div>
-This a normal div element.
-</div>
-
-<div id="myDiv1">
+<div class="box matrix">
 Using the matrix() method.
 </div>
 
-<div id="myDiv2">
+<div class="box matrix2">
 Another use of the matrix() method.
 </div>
 </div>
   
   <div id="threeD">
+    <h1> Translate 3D</h1>
+
+    <div class="box trans3D">
+      eggo my leggo
+    </div>
+
+    <hr>
     <h1>The rotateX() Method</h1>
 
 <p>The rotateX() method rotates an element around its X-axis at a given degree.</p>
@@ -132,7 +150,7 @@ This div element is rotated 150 degrees.
 This a normal div element.
 </div>
 
-<div id="myDiv">
+<div class="box rotateZ">
 This div element is rotated 90 degrees.
 </div>
   </div>
@@ -141,7 +159,15 @@ This div element is rotated 90 degrees.
     <h1>The transition Property</h1>
 
 <p>Hover over the div element below, to see the transition effect:</p>
-<div></div>
+<div class="box1 transition">transition</div>
+<hr>
+<div class="box1 delay">delay</div>
+<hr>
+<div class="box1 duration">duration</div>
+<hr>
+<div class="box1 proper">property</div>
+<hr>
+<div class="box1 timing">timing function</div>
     
   </div>
 
@@ -149,15 +175,19 @@ This div element is rotated 90 degrees.
     <hr>
     <h1>CSS Animation background</h1>
 
-<div></div>
+<div class="box1 anime"></div>
 
 <p><b>Note:</b> When an animation is finished, it goes back to its original style.</p>
 <h1>CSS Animation background and position</h1>
 
-<div></div>
+<div class="box1 anime2"></div>
 
 <p><b>Note:</b> When an animation is finished, it goes back to its original style.</p>
 <hr>
+    <h1>CSS Animation background and position</h1>
+    <div class="box1 anime3"></div>
+    <hr>
+    
     <h1>CSS Animation delay</h1>
 
 <p>The animation-delay property specifies a delay for the start of an animation. The following example has a 2 seconds delay before starting the animation:</p>
